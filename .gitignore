@@ -1,0 +1,17 @@
+# Local environment overrides. The shipped laptop default .env is tracked
+# deliberately: this repository is the source of the distribution bundle.
+.env.local
+.env.*.local
+
+# Compose overrides and local runtime state
+docker-compose.override.yml
+*.log
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Session-scoped scratch artifacts
+scratch/
